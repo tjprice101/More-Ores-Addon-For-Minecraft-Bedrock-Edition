@@ -3,6 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "more_ores:spessartite_boots",
+      "category": "Equipment",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.boots"

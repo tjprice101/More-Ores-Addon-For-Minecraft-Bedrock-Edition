@@ -3,6 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "more_ores:garnet_helmet",
+      "category": "Equipment",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.helmet"

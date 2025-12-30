@@ -3,6 +3,7 @@
   "minecraft:item": {
     "description": {
       "identifier": "more_ores:spessartite_chestplate",
+      "category": "Equipment",
       "menu_category": {
         "category": "equipment",
         "group": "itemGroup.name.chestplate"
