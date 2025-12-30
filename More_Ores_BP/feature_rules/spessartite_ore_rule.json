@@ -10,13 +10,18 @@
       "minecraft:biome_filter": [
         {
           "test": "has_biome_tag",
-          "operator": "==",
-          "value": "desert"
+          "operator": "!=",
+          "value": "nether"
+        },
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "end"
         }
       ]
     },
     "distribution": {
-      "iterations": 18,
+      "iterations": 15,
       "coordinate_eval_order": "xyz",
       "x": {
         "distribution": "uniform",
