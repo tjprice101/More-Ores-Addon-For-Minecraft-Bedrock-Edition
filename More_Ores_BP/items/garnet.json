@@ -10,7 +10,7 @@
     },
     "components": {
       "minecraft:display_name": {
-        "value": "Garnet Gem"
+        "value": "Garnet"
       },
       "minecraft:icon": "garnet",
       "minecraft:max_stack_size": 64,
