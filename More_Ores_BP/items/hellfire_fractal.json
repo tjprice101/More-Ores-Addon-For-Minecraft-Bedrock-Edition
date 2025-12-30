@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hellfire:hellfire_fractal",
+      "category": "items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Hellfire Fractal"
+      },
+      "minecraft:icon": "hellfire_fractal",
+      "minecraft:hover_text_color": "red"
+    }
+  }
+}

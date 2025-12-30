@@ -1,0 +1,129 @@
+{
+  "format_version": "1.20.0",
+  "texture_data": {
+    "tazerite_sword": { "textures": "textures/items/tools/tazerite_sword" },
+    "tazerite_pickaxe": { "textures": "textures/items/tools/tazerite_pickaxe" },
+    "tazerite_axe": { "textures": "textures/items/tools/tazerite_axe" },
+    "tazerite_shovel": { "textures": "textures/items/tools/tazerite_shovel" },
+    "tazerite_hoe": { "textures": "textures/items/tools/tazerite_hoe" },
+    "tazerite_crystal": { "textures": "textures/items/tazerite_crystal" },
+    
+    "hellfire_sword": { "textures": "textures/items/tools/hellfire_sword" },
+    "hellfire_pickaxe": { "textures": "textures/items/tools/hellfire_pickaxe" },
+    "hellfire_axe": { "textures": "textures/items/tools/hellfire_axe" },
+    "hellfire_shovel": { "textures": "textures/items/tools/hellfire_shovel" },
+    "hellfire_hoe": { "textures": "textures/items/tools/hellfire_hoe" },
+    "hellfire_fractal": { "textures": "textures/items/hellfire_fractal" },
+    
+    "heavenbane_sword": { "textures": "textures/items/tools/heavenbane_sword" },
+    "heavenbane_pickaxe": { "textures": "textures/items/tools/heavenbane_pickaxe" },
+    "heavenbane_axe": { "textures": "textures/items/tools/heavenbane_axe" },
+    "heavenbane_shovel": { "textures": "textures/items/tools/heavenbane_shovel" },
+    "heavenbane_hoe": { "textures": "textures/items/tools/heavenbane_hoe" },
+    "shard_of_heaven": { "textures": "textures/items/shard_of_heaven" },
+    
+    "pearlescite_sword": { "textures": "textures/items/tools/pearlescite_sword" },
+    "pearlescite_pickaxe": { "textures": "textures/items/tools/pearlescite_pickaxe" },
+    "pearlescite_axe": { "textures": "textures/items/tools/pearlescite_axe" },
+    "pearlescite_shovel": { "textures": "textures/items/tools/pearlescite_shovel" },
+    "pearlescite_hoe": { "textures": "textures/items/tools/pearlescite_hoe" },
+    "pearlescite_orb": { "textures": "textures/items/pearlescite_orb" },
+    
+    "tazerite_helmet": { "textures": "textures/items/armor/tazerite_helmet" },
+    "tazerite_chestplate": { "textures": "textures/items/armor/tazerite_chestplate" },
+    "tazerite_leggings": { "textures": "textures/items/armor/tazerite_leggings" },
+    "tazerite_boots": { "textures": "textures/items/armor/tazerite_boots" },
+    
+    "hellfire_helmet": { "textures": "textures/items/armor/hellfire_helmet" },
+    "hellfire_chestplate": { "textures": "textures/items/armor/hellfire_chestplate" },
+    "hellfire_leggings": { "textures": "textures/items/armor/hellfire_leggings" },
+    "hellfire_boots": { "textures": "textures/items/armor/hellfire_boots" },
+    
+    "heavenbane_helmet": { "textures": "textures/items/armor/heavenbane_helmet" },
+    "heavenbane_chestplate": { "textures": "textures/items/armor/heavenbane_chestplate" },
+    "heavenbane_leggings": { "textures": "textures/items/armor/heavenbane_leggings" },
+    "heavenbane_boots": { "textures": "textures/items/armor/heavenbane_boots" },
+    
+    "pearlescite_helmet": { "textures": "textures/items/armor/pearlescite_helmet" },
+    "pearlescite_chestplate": { "textures": "textures/items/armor/pearlescite_chestplate" },
+    "pearlescite_leggings": { "textures": "textures/items/armor/pearlescite_leggings" },
+    "pearlescite_boots": { "textures": "textures/items/armor/pearlescite_boots" },
+    
+    "fractalized_helmet": { "textures": "textures/items/armor/fractalized_helmet" },
+    "fractalized_chestplate": { "textures": "textures/items/armor/fractalized_chestplate" },
+    "fractalized_leggings": { "textures": "textures/items/armor/fractalized_leggings" },
+    "fractalized_boots": { "textures": "textures/items/armor/fractalized_boots" },
+    
+    "fractalized_sword": { "textures": "textures/items/tools/fractalized_sword" },
+    "fractalized_pickaxe": { "textures": "textures/items/tools/fractalized_pickaxe" },
+    "fractalized_axe": { "textures": "textures/items/tools/fractalized_axe" },
+    "fractalized_shovel": { "textures": "textures/items/tools/fractalized_shovel" },
+    "fractalized_hoe": { "textures": "textures/items/tools/fractalized_hoe" },
+    
+    "fractalized_particle": { "textures": "textures/items/fractalized_particle" },
+    "fractalized_core": { "textures": "textures/items/fractalized_core" },
+    "fractalized_engine": { "textures": "textures/items/fractalized_engine" },
+    "fractalized_capacitor": { "textures": "textures/items/fractalized_capacitor" },
+    
+    "silver_clump": { "textures": "textures/items/silver_clump" },
+    "ruby": { "textures": "textures/items/ruby" },
+    "jadestone": { "textures": "textures/items/jadestone" },
+    "spessartite": { "textures": "textures/items/spessartite" },
+    "garnet": { "textures": "textures/items/garnet" },
+    
+    "silver_sword": { "textures": "textures/items/tools/silver_sword" },
+    "silver_pickaxe": { "textures": "textures/items/tools/silver_pickaxe" },
+    "silver_axe": { "textures": "textures/items/tools/silver_axe" },
+    "silver_shovel": { "textures": "textures/items/tools/silver_shovel" },
+    "silver_hoe": { "textures": "textures/items/tools/silver_hoe" },
+    
+    "ruby_sword": { "textures": "textures/items/tools/ruby_sword" },
+    "ruby_pickaxe": { "textures": "textures/items/tools/ruby_pickaxe" },
+    "ruby_axe": { "textures": "textures/items/tools/ruby_axe" },
+    "ruby_shovel": { "textures": "textures/items/tools/ruby_shovel" },
+    "ruby_hoe": { "textures": "textures/items/tools/ruby_hoe" },
+    
+    "jade_sword": { "textures": "textures/items/tools/jade_sword" },
+    "jade_pickaxe": { "textures": "textures/items/tools/jade_pickaxe" },
+    "jade_axe": { "textures": "textures/items/tools/jade_axe" },
+    "jade_shovel": { "textures": "textures/items/tools/jade_shovel" },
+    "jade_hoe": { "textures": "textures/items/tools/jade_hoe" },
+    
+    "spessartite_sword": { "textures": "textures/items/tools/spessartite_sword" },
+    "spessartite_pickaxe": { "textures": "textures/items/tools/spessartite_pickaxe" },
+    "spessartite_axe": { "textures": "textures/items/tools/spessartite_axe" },
+    "spessartite_shovel": { "textures": "textures/items/tools/spessartite_shovel" },
+    "spessartite_hoe": { "textures": "textures/items/tools/spessartite_hoe" },
+    
+    "garnet_sword": { "textures": "textures/items/tools/garnet_sword" },
+    "garnet_pickaxe": { "textures": "textures/items/tools/garnet_pickaxe" },
+    "garnet_axe": { "textures": "textures/items/tools/garnet_axe" },
+    "garnet_shovel": { "textures": "textures/items/tools/garnet_shovel" },
+    "garnet_hoe": { "textures": "textures/items/tools/garnet_hoe" },
+    
+    "silver_helmet": { "textures": "textures/items/armor/silver_helmet" },
+    "silver_chestplate": { "textures": "textures/items/armor/silver_chestplate" },
+    "silver_leggings": { "textures": "textures/items/armor/silver_leggings" },
+    "silver_boots": { "textures": "textures/items/armor/silver_boots" },
+    
+    "ruby_helmet": { "textures": "textures/items/armor/ruby_helmet" },
+    "ruby_chestplate": { "textures": "textures/items/armor/ruby_chestplate" },
+    "ruby_leggings": { "textures": "textures/items/armor/ruby_leggings" },
+    "ruby_boots": { "textures": "textures/items/armor/ruby_boots" },
+    
+    "jade_helmet": { "textures": "textures/items/armor/jade_helmet" },
+    "jade_chestplate": { "textures": "textures/items/armor/jade_chestplate" },
+    "jade_leggings": { "textures": "textures/items/armor/jade_leggings" },
+    "jade_boots": { "textures": "textures/items/armor/jade_boots" },
+    
+    "spessartite_helmet": { "textures": "textures/items/armor/spessartite_helmet" },
+    "spessartite_chestplate": { "textures": "textures/items/armor/spessartite_chestplate" },
+    "spessartite_leggings": { "textures": "textures/items/armor/spessartite_leggings" },
+    "spessartite_boots": { "textures": "textures/items/armor/spessartite_boots" },
+    
+    "garnet_helmet": { "textures": "textures/items/armor/garnet_helmet" },
+    "garnet_chestplate": { "textures": "textures/items/armor/garnet_chestplate" },
+    "garnet_leggings": { "textures": "textures/items/armor/garnet_leggings" },
+    "garnet_boots": { "textures": "textures/items/armor/garnet_boots" }
+  }
+}

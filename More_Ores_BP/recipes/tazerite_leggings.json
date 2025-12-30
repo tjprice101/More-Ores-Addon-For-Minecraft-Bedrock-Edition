@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "tazerite:tazerite_leggings" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "key": {
+      "C": { "item": "tazerite:tazerite_crystal" }
+    },
+    "result": { "item": "tazerite:tazerite_leggings", "count": 1 }
+  }
+}

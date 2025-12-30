@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "silver:silver_clump",
+      "category": "Items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Silver Clump"
+      },
+      "minecraft:icon": "silver_clump",
+      "minecraft:max_stack_size": 64,
+      "minecraft:hover_text_color": "gray"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_helmet"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "EDE",
+      "DPD"
+    ],
+    "key": {
+      "E": {
+        "item": "fractalized:fractalized_engine"
+      },
+      "P": {
+        "item": "fractalized:fractalized_particle"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_engine" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_helmet",
+      "count": 1
+    }
+  }
+}

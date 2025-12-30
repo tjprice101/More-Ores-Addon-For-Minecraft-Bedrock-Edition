@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tazerite:tazerite_chestplate",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§5Tazerite Chestplate§r"
+      },
+      "minecraft:lore": [
+        "§5Forged from charged crystal ore",
+        "§5A living battery of protection",
+        "§8Protection: 9 | Durability: 950"
+      ],
+      "minecraft:icon": "tazerite_chestplate",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 950
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["tazerite:tazerite_crystal"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "dark_purple",
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 15
+      },
+      "tazerite:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 9      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

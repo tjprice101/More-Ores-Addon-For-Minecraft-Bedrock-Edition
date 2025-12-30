@@ -1,0 +1,20 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "jade:jade_ore_feature"
+    },
+    "count": 9,
+    "discard_chance_on_air_exposure": 0,
+    "replace_rules": [
+      {
+        "places_block": "jade:jade_ore",
+        "may_replace": ["minecraft:stone"]
+      },
+      {
+        "places_block": "jade:jade_ore",
+        "may_replace": ["minecraft:deepslate"]
+      }
+    ]
+  }
+}

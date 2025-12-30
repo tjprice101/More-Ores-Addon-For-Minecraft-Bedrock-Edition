@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "silver:silver_ore_smelting"
+    },
+    "tags": ["furnace", "blast_furnace"],
+    "input": "silver:silver_ore",
+    "output": "silver:silver_clump",
+    "unlock": [
+      {
+        "item": "silver:silver_ore"
+      }
+    ]
+  }
+}

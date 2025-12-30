@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ruby:ruby_chestplate",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§cRuby Chestplate§r"
+      },
+      "minecraft:lore": [
+        "§cCrafted from blazing crimson gems",
+        "§cThe heart of fire beats within",
+        "§8Protection: 9 | Durability: 750"
+      ],
+      "minecraft:icon": "ruby_chestplate",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 750
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["ruby:ruby"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "red",
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 12
+      },
+      "ruby:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 9      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

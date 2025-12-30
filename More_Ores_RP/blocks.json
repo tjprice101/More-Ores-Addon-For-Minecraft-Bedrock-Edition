@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.40",
+  "tazerite:tazerite_ore": {
+    "textures": "tazerite_ore",
+    "sound": "stone"
+  },
+  "hellfire:hellfire_ore": {
+    "textures": "hellfire_ore",
+    "sound": "stone"
+  },
+  "heavenbane:heavenbane_ore": {
+    "textures": "heavenbane_ore",
+    "sound": "stone"
+  },
+  "pearlescite:pearlescite_ore": {
+    "textures": "pearlescite_ore",
+    "sound": "stone"
+  },
+  "silver:silver_ore": {
+    "textures": "silver_ore",
+    "sound": "stone"
+  },
+  "ruby:ruby_ore": {
+    "textures": "ruby_ore",
+    "sound": "stone"
+  },
+  "jade:jade_ore": {
+    "textures": "jade_ore",
+    "sound": "stone"
+  },
+  "spessartite:spessartite_ore": {
+    "textures": "spessartite_ore",
+    "sound": "stone"
+  },
+  "garnet:garnet_ore": {
+    "textures": "garnet_ore",
+    "sound": "stone"
+  }
+}

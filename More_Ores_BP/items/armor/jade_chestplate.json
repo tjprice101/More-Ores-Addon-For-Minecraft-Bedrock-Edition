@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "jade:jade_chestplate",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§aJade Chestplate§r"
+      },
+      "minecraft:lore": [
+        "§2Hewn from ancient jungle stone",
+        "§2The strength of ages shields your heart",
+        "§8Protection: 9 | Durability: 1125"
+      ],
+      "minecraft:icon": "jade_chestplate",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1125
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["jade:jadestone"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "green",
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 15
+      },
+      "jade:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 9
+      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]
+      }
+    }
+  }
+}

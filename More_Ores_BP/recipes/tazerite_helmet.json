@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "tazerite:tazerite_helmet" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "C C",
+      "   "
+    ],
+    "key": {
+      "C": { "item": "tazerite:tazerite_crystal" }
+    },
+    "result": { "item": "tazerite:tazerite_helmet", "count": 1 }
+  }
+}

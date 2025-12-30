@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "heavenbane:heavenbane_pickaxe" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "C": { "item": "heavenbane:shard_of_heaven" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "heavenbane:heavenbane_pickaxe", "count": 1 }
+  }
+}

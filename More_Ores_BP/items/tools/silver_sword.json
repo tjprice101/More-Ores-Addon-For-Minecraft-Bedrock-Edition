@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "silver:silver_sword",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": { "texture": "silver_sword" },
+      "minecraft:display_name": { "value": "§7Silver Sword§r" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 300 },
+      "minecraft:repairable": { "repair_items": [{ "items": ["silver:silver_clump"], "repair_amount": "context.other->q.remaining_durability + 0.20 * context.other->q.max_durability" }] },
+      "minecraft:damage": { "value": 6 },
+      "minecraft:enchantable": { "value": 14, "slot": "sword" },
+      "minecraft:hand_equipped": true,
+      "silver:durability": {},
+      "minecraft:hover_text_color": "gray",
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

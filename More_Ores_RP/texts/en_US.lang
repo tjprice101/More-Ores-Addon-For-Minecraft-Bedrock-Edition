@@ -1,0 +1,140 @@
+## ============================================
+## MORE ORES! - Combined Language File
+## ============================================
+
+## ============================================
+## TAZERITE (Overworld - Tier 1)
+## ============================================
+tile.tazerite:tazerite_ore.name=Tazerite Ore
+item.tazerite:tazerite_crystal=Tazerite Crystal
+item.tazerite:tazerite_pickaxe=Tazerite Pickaxe
+item.tazerite:tazerite_axe=Tazerite Axe
+item.tazerite:tazerite_shovel=Tazerite Shovel
+item.tazerite:tazerite_hoe=Tazerite Hoe
+item.tazerite:tazerite_sword=Tazerite Sword
+item.tazerite:tazerite_helmet=Tazerite Helmet
+item.tazerite:tazerite_chestplate=Tazerite Chestplate
+item.tazerite:tazerite_leggings=Tazerite Leggings
+item.tazerite:tazerite_boots=Tazerite Boots
+
+## ============================================
+## HELLFIRE (Nether - Tier 2)
+## ============================================
+tile.hellfire:hellfire_ore.name=Hellfire Ore
+item.hellfire:hellfire_crystal=Hellfire Crystal
+item.hellfire:hellfire_fractal=Hellfire Fractal
+item.hellfire:hellfire_pickaxe=Hellfire Pickaxe
+item.hellfire:hellfire_axe=Hellfire Axe
+item.hellfire:hellfire_shovel=Hellfire Shovel
+item.hellfire:hellfire_hoe=Hellfire Hoe
+item.hellfire:hellfire_sword=Hellfire Sword
+item.hellfire:hellfire_helmet=Hellfire Helmet
+item.hellfire:hellfire_chestplate=Hellfire Chestplate
+item.hellfire:hellfire_leggings=Hellfire Leggings
+item.hellfire:hellfire_boots=Hellfire Boots
+
+## ============================================
+## HEAVENBANE (End - Tier 3)
+## ============================================
+tile.heavenbane:heavenbane_ore.name=Heavenbane Ore
+item.heavenbane:heavenbane_crystal=Heavenbane Crystal
+item.heavenbane:shard_of_heaven=Shard of Heaven
+item.heavenbane:heavenbane_pickaxe=Heavenbane Pickaxe
+item.heavenbane:heavenbane_axe=Heavenbane Axe
+item.heavenbane:heavenbane_shovel=Heavenbane Shovel
+item.heavenbane:heavenbane_hoe=Heavenbane Hoe
+item.heavenbane:heavenbane_sword=Heavenbane Sword
+item.heavenbane:heavenbane_helmet=Heavenbane Helmet
+item.heavenbane:heavenbane_chestplate=Heavenbane Chestplate
+item.heavenbane:heavenbane_leggings=Heavenbane Leggings
+item.heavenbane:heavenbane_boots=Heavenbane Boots
+
+## ============================================
+## PEARLESCITE (Deep Ocean - Tier 4)
+## ============================================
+tile.pearlescite:pearlescite_ore.name=Pearlescite Ore
+item.pearlescite:pearlescite_crystal=Pearlescite Crystal
+item.pearlescite:pearlescite_orb=Pearlescite Orb
+item.pearlescite:pearlescite_pickaxe=Pearlescite Pickaxe
+item.pearlescite:pearlescite_sword=Pearlescite Sword
+item.pearlescite:pearlescite_axe=Pearlescite Axe
+item.pearlescite:pearlescite_shovel=Pearlescite Shovel
+item.pearlescite:pearlescite_hoe=Pearlescite Hoe
+item.pearlescite:pearlescite_helmet=Pearlescite Helmet
+item.pearlescite:pearlescite_chestplate=Pearlescite Chestplate
+item.pearlescite:pearlescite_leggings=Pearlescite Leggings
+item.pearlescite:pearlescite_boots=Pearlescite Boots
+## ============================================
+## SILVER (Overworld - Pre-Tier)
+## ============================================
+tile.silver:silver_ore.name=Silver Ore
+item.more_ores:silver_clump=Silver Clump
+item.more_ores:silver_pickaxe=Silver Pickaxe
+item.more_ores:silver_axe=Silver Axe
+item.more_ores:silver_shovel=Silver Shovel
+item.more_ores:silver_hoe=Silver Hoe
+item.more_ores:silver_sword=Silver Sword
+item.more_ores:silver_helmet=Silver Helmet
+item.more_ores:silver_chestplate=Silver Chestplate
+item.more_ores:silver_leggings=Silver Leggings
+item.more_ores:silver_boots=Silver Boots
+
+## ============================================
+## RUBY (Overworld - Pre-Tier)
+## ============================================
+tile.ruby:ruby_ore.name=Ruby Ore
+item.more_ores:ruby=Ruby
+item.more_ores:ruby_pickaxe=Ruby Pickaxe
+item.more_ores:ruby_axe=Ruby Axe
+item.more_ores:ruby_shovel=Ruby Shovel
+item.more_ores:ruby_hoe=Ruby Hoe
+item.more_ores:ruby_sword=Ruby Sword
+item.more_ores:ruby_helmet=Ruby Helmet
+item.more_ores:ruby_chestplate=Ruby Chestplate
+item.more_ores:ruby_leggings=Ruby Leggings
+item.more_ores:ruby_boots=Ruby Boots
+
+## ============================================
+## JADE (Overworld - Pre-Tier)
+## ============================================
+tile.jade:jade_ore.name=Jade Ore
+item.more_ores:jadestone=Jadestone
+item.more_ores:jade_pickaxe=Jade Pickaxe
+item.more_ores:jade_axe=Jade Axe
+item.more_ores:jade_shovel=Jade Shovel
+item.more_ores:jade_hoe=Jade Hoe
+item.more_ores:jade_sword=Jade Sword
+item.more_ores:jade_helmet=Jade Helmet
+item.more_ores:jade_chestplate=Jade Chestplate
+item.more_ores:jade_leggings=Jade Leggings
+item.more_ores:jade_boots=Jade Boots
+
+## ============================================
+## SPESSARTITE (Overworld - Pre-Tier)
+## ============================================
+tile.spessartite:spessartite_ore.name=Spessartite Ore
+item.more_ores:spessartite=Spessartite
+item.more_ores:spessartite_pickaxe=Spessartite Pickaxe
+item.more_ores:spessartite_axe=Spessartite Axe
+item.more_ores:spessartite_shovel=Spessartite Shovel
+item.more_ores:spessartite_hoe=Spessartite Hoe
+item.more_ores:spessartite_sword=Spessartite Sword
+item.more_ores:spessartite_helmet=Spessartite Helmet
+item.more_ores:spessartite_chestplate=Spessartite Chestplate
+item.more_ores:spessartite_leggings=Spessartite Leggings
+item.more_ores:spessartite_boots=Spessartite Boots
+
+## ============================================
+## GARNET (Overworld - Pre-Tier)
+## ============================================
+tile.garnet:garnet_ore.name=Garnet Ore
+item.more_ores:garnet=Garnet
+item.more_ores:garnet_pickaxe=Garnet Pickaxe
+item.more_ores:garnet_axe=Garnet Axe
+item.more_ores:garnet_shovel=Garnet Shovel
+item.more_ores:garnet_hoe=Garnet Hoe
+item.more_ores:garnet_sword=Garnet Sword
+item.more_ores:garnet_helmet=Garnet Helmet
+item.more_ores:garnet_chestplate=Garnet Chestplate
+item.more_ores:garnet_leggings=Garnet Leggings
+item.more_ores:garnet_boots=Garnet Boots

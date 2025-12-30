@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_sword"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " E ",
+      "DPD",
+      " S "
+    ],
+    "key": {
+      "E": {
+        "item": "fractalized:fractalized_engine"
+      },
+      "P": {
+        "item": "fractalized:fractalized_particle"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_particle" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_sword",
+      "count": 1
+    }
+  }
+}

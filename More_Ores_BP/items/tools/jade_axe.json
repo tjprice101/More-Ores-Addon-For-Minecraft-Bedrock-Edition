@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": { "identifier": "jade:jade_axe", "menu_category": { "category": "equipment", "group": "itemGroup.name.axe" } },
+    "components": {
+      "minecraft:icon": { "texture": "jade_axe" },
+      "minecraft:display_name": { "value": "§aJade Axe§r" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 1800 },
+      "minecraft:repairable": { "repair_items": [{ "items": ["jade:jadestone"], "repair_amount": "context.other->q.remaining_durability + 0.20 * context.other->q.max_durability" }] },
+      "minecraft:damage": { "value": 10 },
+      "minecraft:enchantable": { "value": 16, "slot": "axe" },
+      "minecraft:hand_equipped": true,
+      "jade:durability": {},
+      "minecraft:hover_text_color": "green",
+      "minecraft:digger": { "use_efficiency": true, "destroy_speeds": [{ "block": { "tags": "q.any_tag('wood', 'log', 'pumpkin')" }, "speed": 9 }] },
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

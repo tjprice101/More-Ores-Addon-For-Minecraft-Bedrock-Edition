@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "more_ores:spessartite_leggings",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§6Spessartite Leggings§r"
+      },
+      "minecraft:lore": [
+        "§6Forged from desert amber crystal",
+        "§6Swift as the scorching wind",
+        "§8Protection: 4 | Durability: 280"
+      ],
+      "minecraft:icon": "spessartite_leggings",
+      "minecraft:max_stack_size": 1,
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "more_ores:spessartite"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.25 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "value": 8,
+        "slot": "armor_legs"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 4
+      },      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]
+      },      "minecraft:durability": {
+        "max_durability": 280
+      },
+      "spessartite:armor_durability": {},
+      "minecraft:hover_text_color": "gold"
+    }
+  }
+}

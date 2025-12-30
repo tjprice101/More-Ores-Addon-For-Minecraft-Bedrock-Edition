@@ -1,0 +1,35 @@
+{
+  "resource_pack_name": "More_Ores_RP",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "tazerite_ore": {
+      "textures": "textures/blocks/tazerite_ore"
+    },
+    "hellfire_ore": {
+      "textures": "textures/blocks/hellfire_ore"
+    },
+    "heavenbane_ore": {
+      "textures": "textures/blocks/heavenbane_ore"
+    },
+    "pearlescite_ore": {
+      "textures": "textures/blocks/pearlescite_ore"
+    },
+    "silver_ore": {
+      "textures": "textures/blocks/silver_ore"
+    },
+    "ruby_ore": {
+      "textures": "textures/blocks/ruby_ore"
+    },
+    "jade_ore": {
+      "textures": "textures/blocks/jade_ore"
+    },
+    "spessartite_ore": {
+      "textures": "textures/blocks/spessartite_ore"
+    },
+    "garnet_ore": {
+      "textures": "textures/blocks/garnet_ore"
+    }
+  }
+}

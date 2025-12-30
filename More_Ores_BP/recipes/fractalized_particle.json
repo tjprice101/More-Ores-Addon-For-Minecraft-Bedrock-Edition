@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fractalized:fractalized_particle"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      {
+        "item": "hellfire:hellfire_fractal"
+      },
+      {
+        "item": "heavenbane:shard_of_heaven"
+      },
+      {
+        "item": "pearlescite:pearlescite_orb"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "hellfire:hellfire_fractal"
+      },
+      {
+        "item": "heavenbane:shard_of_heaven"
+      },
+      {
+        "item": "pearlescite:pearlescite_orb"
+      }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_particle",
+      "count": 1
+    }
+  }
+}

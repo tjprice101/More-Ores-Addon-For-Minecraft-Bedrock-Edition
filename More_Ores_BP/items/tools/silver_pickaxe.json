@@ -1,0 +1,84 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "silver:silver_pickaxe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.pickaxe"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "silver_pickaxe"
+      },
+      "minecraft:display_name": {
+        "value": "§7Silver Pickaxe§r"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 300
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["silver:silver_clump"],
+            "repair_amount": "context.other->q.remaining_durability + 0.20 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:damage": {
+        "value": 4
+      },
+      "minecraft:enchantable": {
+        "value": 14,
+        "slot": "pickaxe"
+      },
+      "minecraft:hand_equipped": true,
+      "silver:durability": {},
+      "minecraft:hover_text_color": "gray",
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable', 'iron_pick_diggable', 'stone_pick_diggable')"
+            },
+            "speed": 6
+          },
+          { "block": "minecraft:stone", "speed": 6 },
+          { "block": "minecraft:cobblestone", "speed": 6 },
+          { "block": "minecraft:deepslate", "speed": 6 },
+          { "block": "minecraft:cobbled_deepslate", "speed": 6 },
+          { "block": "minecraft:sandstone", "speed": 6 },
+          { "block": "minecraft:red_sandstone", "speed": 6 },
+          { "block": "minecraft:netherrack", "speed": 6 },
+          { "block": "minecraft:coal_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_coal_ore", "speed": 6 },
+          { "block": "minecraft:iron_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_iron_ore", "speed": 6 },
+          { "block": "minecraft:copper_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_copper_ore", "speed": 6 },
+          { "block": "minecraft:gold_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_gold_ore", "speed": 6 },
+          { "block": "minecraft:nether_gold_ore", "speed": 6 },
+          { "block": "minecraft:lapis_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_lapis_ore", "speed": 6 },
+          { "block": "minecraft:redstone_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_redstone_ore", "speed": 6 },
+          { "block": "minecraft:diamond_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_diamond_ore", "speed": 6 },
+          { "block": "minecraft:emerald_ore", "speed": 6 },
+          { "block": "minecraft:deepslate_emerald_ore", "speed": 6 },
+          { "block": "minecraft:nether_quartz_ore", "speed": 6 },
+          { "block": "minecraft:ancient_debris", "speed": 6 },
+          { "block": "spessartite:spessartite_ore", "speed": 6 },
+          { "block": "garnet:garnet_ore", "speed": 6 },
+          { "block": "silver:silver_ore", "speed": 6 },
+          { "block": "ruby:ruby_ore", "speed": 6 }
+        ]
+      },
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

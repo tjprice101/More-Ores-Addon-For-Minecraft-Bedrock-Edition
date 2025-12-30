@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": { "identifier": "fractalized:fractalized_shovel", "menu_category": { "category": "equipment", "group": "itemGroup.name.shovel" } },
+    "components": {
+      "minecraft:icon": { "texture": "fractalized_shovel" },
+      "minecraft:display_name": { "value": "§bFractalized Shovel§r" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 5000, "damage_chance": { "min": 60, "max": 100 } },
+      "minecraft:repairable": { "repair_items": [{ "items": ["fractalized:fractalized_particle"], "repair_amount": "context.other->q.remaining_durability + 0.25 * context.other->q.max_durability" }] },
+      "minecraft:damage": { "value": 11 },
+      "minecraft:enchantable": { "value": 30, "slot": "shovel" },
+      "minecraft:hand_equipped": true,
+      "fractalized:durability": {},
+      "fractalized:create_path": {},
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:digger": { "use_efficiency": true, "destroy_speeds": [{ "block": { "tags": "q.any_tag('sand', 'dirt', 'gravel', 'grass', 'snow', 'clay', 'soul_sand')" }, "speed": 30 }] },
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "hellfire:hellfire_hoe" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CC ",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "C": { "item": "hellfire:hellfire_fractal" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "hellfire:hellfire_hoe", "count": 1 }
+  }
+}

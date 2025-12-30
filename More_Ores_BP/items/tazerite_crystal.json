@@ -1,0 +1,18 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "tazerite:tazerite_crystal",
+      "category": "items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Tazerite Crystal"
+      },
+      "minecraft:icon": "tazerite_crystal"
+    }
+  }
+}

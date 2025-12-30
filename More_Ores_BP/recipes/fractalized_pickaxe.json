@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_pickaxe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "CDC",
+      "DPD",
+      " S "
+    ],
+    "key": {
+      "C": {
+        "item": "fractalized:fractalized_capacitor"
+      },
+      "P": {
+        "item": "fractalized:fractalized_particle"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_particle" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_pickaxe",
+      "count": 1
+    }
+  }
+}

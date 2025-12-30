@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "heavenbane:heavenbane_boots" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "   ",
+      "C C",
+      "C C"
+    ],
+    "key": {
+      "C": { "item": "heavenbane:shard_of_heaven" }
+    },
+    "result": { "item": "heavenbane:heavenbane_boots", "count": 1 }
+  }
+}

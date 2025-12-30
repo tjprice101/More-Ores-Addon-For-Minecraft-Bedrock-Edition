@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "fractalized:fractalized_capacitor"
+    },
+    "tags": ["crafting_table"],
+    "ingredients": [
+      { "item": "fractalized:fractalized_particle" },
+      { "item": "fractalized:fractalized_particle" },
+      { "item": "fractalized:fractalized_particle" }
+    ],
+    "unlock": [
+      { "item": "fractalized:fractalized_particle" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_capacitor",
+      "count": 1
+    }
+  }
+}

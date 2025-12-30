@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pearlescite:pearlescite_chestplate",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§dPearlescite Chestplate§r"
+      },
+      "minecraft:lore": [
+        "§dFormed in the abyssal deep",
+        "§dTides of power shield your heart",
+        "§8Protection: 14 | Durability: 1200"
+      ],
+      "minecraft:icon": "pearlescite_chestplate",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1200
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["pearlescite:pearlescite_orb"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "light_purple",
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 25
+      },
+      "pearlescite:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 8      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

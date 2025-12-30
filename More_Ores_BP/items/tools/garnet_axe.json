@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": { "identifier": "garnet:garnet_axe", "menu_category": { "category": "equipment", "group": "itemGroup.name.axe" } },
+    "components": {
+      "minecraft:icon": { "texture": "garnet_axe" },
+      "minecraft:display_name": { "value": "§4Garnet Axe§r" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 225, "damage_chance": { "min": 60, "max": 100 } },
+      "minecraft:repairable": { "repair_items": [{ "items": ["garnet:garnet"], "repair_amount": "context.other->q.remaining_durability + 0.20 * context.other->q.max_durability" }] },
+      "minecraft:damage": { "value": 7 },
+      "minecraft:enchantable": { "value": 10, "slot": "axe" },
+      "minecraft:hand_equipped": true,
+      "garnet:durability": {},
+      "minecraft:hover_text_color": "dark_red",
+      "minecraft:digger": { "use_efficiency": true, "destroy_speeds": [{ "block": { "tags": "q.any_tag('wood', 'log', 'pumpkin')" }, "speed": 5 }] },
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "hellfire:hellfire_boots" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "   ",
+      "C C",
+      "C C"
+    ],
+    "key": {
+      "C": { "item": "hellfire:hellfire_fractal" }
+    },
+    "result": { "item": "hellfire:hellfire_boots", "count": 1 }
+  }
+}

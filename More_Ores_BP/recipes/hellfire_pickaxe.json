@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "hellfire:hellfire_pickaxe" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "C": { "item": "hellfire:hellfire_fractal" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "hellfire:hellfire_pickaxe", "count": 1 }
+  }
+}

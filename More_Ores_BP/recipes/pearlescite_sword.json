@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "pearlescite:pearlescite_sword"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "P",
+      "P",
+      "S"
+    ],
+    "key": {
+      "P": {
+        "item": "pearlescite:pearlescite_orb"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      {
+        "item": "pearlescite:pearlescite_orb"
+      }
+    ],
+    "result": {
+      "item": "pearlescite:pearlescite_sword",
+      "count": 1
+    }
+  }
+}

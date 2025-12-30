@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "tazerite:tazerite_hoe" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CC ",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "C": { "item": "tazerite:tazerite_crystal" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "tazerite:tazerite_hoe", "count": 1 }
+  }
+}

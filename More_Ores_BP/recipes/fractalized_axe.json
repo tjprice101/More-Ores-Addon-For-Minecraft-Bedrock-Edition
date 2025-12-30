@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_axe"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "CD ",
+      "CS ",
+      " S "
+    ],
+    "key": {
+      "C": {
+        "item": "fractalized:fractalized_core"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_core" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_axe",
+      "count": 1
+    }
+  }
+}

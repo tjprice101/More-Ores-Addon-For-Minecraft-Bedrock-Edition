@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "heavenbane:heavenbane_chestplate",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.chestplate"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§bHeavenbane Chestplate§r"
+      },
+      "minecraft:lore": [
+        "§bForged from celestial fragments",
+        "§bA shield against the void's embrace",
+        "§8Protection: 12 | Durability: 1000"
+      ],
+      "minecraft:icon": "heavenbane_chestplate",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1000
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["heavenbane:shard_of_heaven"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 20
+      },
+      "heavenbane:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 9      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

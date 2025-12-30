@@ -1,0 +1,51 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "silver:silver_leggings",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§7Silver Leggings§r"
+      },
+      "minecraft:lore": [
+        "§7Forged from lustrous silver ore",
+        "§7Flexible links allow swift movement",
+        "§8Protection: 5 | Durability: 560"
+      ],
+      "minecraft:icon": "silver_leggings",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 560
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["silver:silver_clump"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "gray",
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 10
+      },
+      "silver:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]
+      }
+    }
+  }
+}

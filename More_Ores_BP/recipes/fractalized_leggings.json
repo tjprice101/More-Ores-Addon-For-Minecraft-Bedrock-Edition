@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_leggings"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "DPD",
+      "C C",
+      "C C"
+    ],
+    "key": {
+      "C": {
+        "item": "fractalized:fractalized_capacitor"
+      },
+      "P": {
+        "item": "fractalized:fractalized_particle"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_capacitor" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_leggings",
+      "count": 1
+    }
+  }
+}

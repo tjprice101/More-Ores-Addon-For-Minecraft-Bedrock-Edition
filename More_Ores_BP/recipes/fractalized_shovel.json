@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_shovel"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " C ",
+      " D ",
+      " S "
+    ],
+    "key": {
+      "C": {
+        "item": "fractalized:fractalized_capacitor"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_capacitor" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_shovel",
+      "count": 1
+    }
+  }
+}

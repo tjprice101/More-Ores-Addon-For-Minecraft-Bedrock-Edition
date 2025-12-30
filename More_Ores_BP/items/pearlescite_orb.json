@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pearlescite:pearlescite_orb",
+      "category": "items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Pearlescite Orb"
+      },
+      "minecraft:icon": "pearlescite_orb",
+      "minecraft:hover_text_color": "light_purple"
+    }
+  }
+}

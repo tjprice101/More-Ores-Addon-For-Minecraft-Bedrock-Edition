@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fractalized:fractalized_particle",
+      "category": "items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Fractalized Particle"
+      },
+      "minecraft:icon": "fractalized_particle",
+      "minecraft:hover_text_color": "aqua"
+    }
+  }
+}

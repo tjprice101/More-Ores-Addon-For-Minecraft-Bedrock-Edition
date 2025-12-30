@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": { "identifier": "tazerite:tazerite_axe" },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CC ",
+      "CS ",
+      " S "
+    ],
+    "key": {
+      "C": { "item": "tazerite:tazerite_crystal" },
+      "S": { "item": "minecraft:stick" }
+    },
+    "result": { "item": "tazerite:tazerite_axe", "count": 1 }
+  }
+}

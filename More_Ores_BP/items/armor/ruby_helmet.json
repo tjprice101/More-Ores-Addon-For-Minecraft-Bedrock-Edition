@@ -1,0 +1,49 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "ruby:ruby_helmet",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Ruby Helmet"
+      },
+      "minecraft:lore": [
+        "§cCrafted from blazing crimson gems",
+        "§cBurning passion ignites your courage",
+        "§8Protection: 3 | Durability: 500"
+      ],
+      "minecraft:icon": "ruby_helmet",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 500
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["ruby:ruby"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "red",
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 12
+      },
+      "ruby:armor_durability": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 3      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fractalized:fractalized_helmet",
+      "category": "Equipment",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Fractalized Helmet"
+      },
+      "minecraft:lore": [
+        "§bWoven from reality's edge",
+        "§bMind-bending patterns shimmer",
+        "§8Protection: 8 | Durability: 1200"
+      ],
+      "minecraft:icon": "fractalized_helmet",
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 1200
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["fractalized:fractalized_particle"],
+            "repair_amount": "query.max_durability * 0.25"
+          }
+        ]
+      },
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:enchantable": {
+        "slot": "armor_head",
+        "value": 30
+      },
+      "fractalized:armor_durability": {},
+      "fractalized:armor_set_bonus": {},
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 6      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]      }
+    }
+  }
+}

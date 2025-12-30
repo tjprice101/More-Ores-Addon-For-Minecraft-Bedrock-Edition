@@ -1,0 +1,52 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "more_ores:garnet_helmet",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "§4Garnet Helmet§r"
+      },
+      "minecraft:lore": [
+        "§4Forged from volcanic crystal",
+        "§4Resonates with the earth's core",
+        "§8Protection: 2 | Durability: 250"
+      ],
+      "minecraft:icon": "garnet_helmet",
+      "minecraft:max_stack_size": 1,
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "more_ores:garnet"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + 0.25 * context.other->query.max_durability"
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_head"
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head",
+        "protection": 2
+      },
+      "minecraft:damage_absorber": {
+        "absorbable_causes": [
+          "all"
+        ]
+      },
+      "minecraft:durability": {
+        "max_durability": 250
+      },
+      "garnet:armor_durability": {},
+      "minecraft:hover_text_color": "dark_red"
+    }
+  }
+}

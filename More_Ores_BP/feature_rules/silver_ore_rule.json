@@ -1,0 +1,40 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "silver:silver_ore_rule",
+      "places_feature": "silver:silver_ore_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "!=",
+          "value": "nether"
+        },
+        {
+          "test": "has_biome_tag", 
+          "operator": "!=",
+          "value": "end"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 18,
+      "coordinate_eval_order": "xyz",
+      "x": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [-64, 0]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [0, 15]
+      }
+    }
+  }
+}

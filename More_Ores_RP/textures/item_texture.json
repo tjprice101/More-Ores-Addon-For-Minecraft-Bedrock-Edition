@@ -1,0 +1,374 @@
+{
+  "resource_pack_name": "More_Ores_RP",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "tazerite_crystal": {
+      "textures": "textures/items/tazerite_crystal"
+    },
+    "tazerite_sword": {
+      "textures": "textures/items/tools/tazerite_sword",
+      "texture_size": [64, 64]
+    },
+    "tazerite_pickaxe": {
+      "textures": "textures/items/tools/tazerite_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "tazerite_axe": {
+      "textures": "textures/items/tools/tazerite_axe",
+      "texture_size": [64, 64]
+    },
+    "tazerite_shovel": {
+      "textures": "textures/items/tools/tazerite_shovel",
+      "texture_size": [64, 64]
+    },
+    "tazerite_hoe": {
+      "textures": "textures/items/tools/tazerite_hoe",
+      "texture_size": [64, 64]
+    },
+    "tazerite_helmet": {
+      "textures": "textures/items/armor/tazerite_helmet"
+    },
+    "tazerite_chestplate": {
+      "textures": "textures/items/armor/tazerite_chestplate"
+    },
+    "tazerite_leggings": {
+      "textures": "textures/items/armor/tazerite_leggings"
+    },
+    "tazerite_boots": {
+      "textures": "textures/items/armor/tazerite_boots"
+    },
+    "hellfire_crystal": {
+      "textures": "textures/items/hellfire_crystal"
+    },
+    "hellfire_fractal": {
+      "textures": "textures/items/hellfire_fractal"
+    },
+    "hellfire_sword": {
+      "textures": "textures/items/tools/hellfire_sword",
+      "texture_size": [64, 64]
+    },
+    "hellfire_pickaxe": {
+      "textures": "textures/items/tools/hellfire_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "hellfire_axe": {
+      "textures": "textures/items/tools/hellfire_axe",
+      "texture_size": [64, 64]
+    },
+    "hellfire_shovel": {
+      "textures": "textures/items/tools/hellfire_shovel",
+      "texture_size": [64, 64]
+    },
+    "hellfire_hoe": {
+      "textures": "textures/items/tools/hellfire_hoe",
+      "texture_size": [64, 64]
+    },
+    "hellfire_helmet": {
+      "textures": "textures/items/armor/hellfire_helmet"
+    },
+    "hellfire_chestplate": {
+      "textures": "textures/items/armor/hellfire_chestplate"
+    },
+    "hellfire_leggings": {
+      "textures": "textures/items/armor/hellfire_leggings"
+    },
+    "hellfire_boots": {
+      "textures": "textures/items/armor/hellfire_boots"
+    },
+    "heavenbane_crystal": {
+      "textures": "textures/items/heavenbane_crystal"
+    },
+    "shard_of_heaven": {
+      "textures": "textures/items/shard_of_heaven"
+    },
+    "heavenbane_sword": {
+      "textures": "textures/items/tools/heavenbane_sword",
+      "texture_size": [64, 64]
+    },
+    "heavenbane_pickaxe": {
+      "textures": "textures/items/tools/heavenbane_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "heavenbane_axe": {
+      "textures": "textures/items/tools/heavenbane_axe",
+      "texture_size": [64, 64]
+    },
+    "heavenbane_shovel": {
+      "textures": "textures/items/tools/heavenbane_shovel",
+      "texture_size": [64, 64]
+    },
+    "heavenbane_hoe": {
+      "textures": "textures/items/tools/heavenbane_hoe",
+      "texture_size": [64, 64]
+    },
+    "heavenbane_helmet": {
+      "textures": "textures/items/armor/heavenbane_helmet"
+    },
+    "heavenbane_chestplate": {
+      "textures": "textures/items/armor/heavenbane_chestplate"
+    },
+    "heavenbane_leggings": {
+      "textures": "textures/items/armor/heavenbane_leggings"
+    },
+    "heavenbane_boots": {
+      "textures": "textures/items/armor/heavenbane_boots"
+    },
+    "pearlescite_crystal": {
+      "textures": "textures/items/pearlescite_crystal"
+    },
+    "pearlescite_orb": {
+      "textures": "textures/items/pearlescite_orb"
+    },
+    "pearlescite_pickaxe": {
+      "textures": "textures/items/tools/pearlescite_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "pearlescite_sword": {
+      "textures": "textures/items/tools/pearlescite_sword",
+      "texture_size": [64, 64]
+    },
+    "pearlescite_axe": {
+      "textures": "textures/items/tools/pearlescite_axe",
+      "texture_size": [64, 64]
+    },
+    "pearlescite_shovel": {
+      "textures": "textures/items/tools/pearlescite_shovel",
+      "texture_size": [64, 64]
+    },
+    "pearlescite_hoe": {
+      "textures": "textures/items/tools/pearlescite_hoe",
+      "texture_size": [64, 64]
+    },
+    "pearlescite_helmet": {
+      "textures": "textures/items/armor/pearlescite_helmet"
+    },
+    "pearlescite_chestplate": {
+      "textures": "textures/items/armor/pearlescite_chestplate"
+    },
+    "pearlescite_leggings": {
+      "textures": "textures/items/armor/pearlescite_leggings"
+    },
+    "pearlescite_boots": {
+      "textures": "textures/items/armor/pearlescite_boots"
+    },
+    "fractalized_particle": {
+      "textures": "textures/items/fractalized_particle"
+    },
+    "fractalized_engine": {
+      "textures": "textures/items/fractalized_engine"
+    },
+    "fractalized_core": {
+      "textures": "textures/items/fractalized_core"
+    },
+    "fractalized_capacitor": {
+      "textures": "textures/items/fractalized_capacitor"
+    },
+    "fractalized_sword": {
+      "textures": "textures/items/tools/fractalized_sword",
+      "texture_size": [64, 64]
+    },
+    "fractalized_pickaxe": {
+      "textures": "textures/items/tools/fractalized_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "fractalized_axe": {
+      "textures": "textures/items/tools/fractalized_axe",
+      "texture_size": [64, 64]
+    },
+    "fractalized_shovel": {
+      "textures": "textures/items/tools/fractalized_shovel",
+      "texture_size": [64, 64]
+    },
+    "fractalized_hoe": {
+      "textures": "textures/items/tools/fractalized_hoe",
+      "texture_size": [64, 64]
+    },
+    "fractalized_helmet": {
+      "textures": "textures/items/armor/fractalized_helmet"
+    },
+    "fractalized_chestplate": {
+      "textures": "textures/items/armor/fractalized_chestplate"
+    },
+    "fractalized_leggings": {
+      "textures": "textures/items/armor/fractalized_leggings"
+    },
+    "fractalized_boots": {
+      "textures": "textures/items/armor/fractalized_boots"
+    },
+    "ruby": {
+      "textures": "textures/items/ruby"
+    },
+    "ruby_sword": {
+      "textures": "textures/items/tools/ruby_sword",
+      "texture_size": [64, 64]
+    },
+    "ruby_pickaxe": {
+      "textures": "textures/items/tools/ruby_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "ruby_axe": {
+      "textures": "textures/items/tools/ruby_axe",
+      "texture_size": [64, 64]
+    },
+    "ruby_shovel": {
+      "textures": "textures/items/tools/ruby_shovel",
+      "texture_size": [64, 64]
+    },
+    "ruby_hoe": {
+      "textures": "textures/items/tools/ruby_hoe",
+      "texture_size": [64, 64]
+    },
+    "ruby_helmet": {
+      "textures": "textures/items/armor/ruby_helmet"
+    },
+    "ruby_chestplate": {
+      "textures": "textures/items/armor/ruby_chestplate"
+    },
+    "ruby_leggings": {
+      "textures": "textures/items/armor/ruby_leggings"
+    },
+    "ruby_boots": {
+      "textures": "textures/items/armor/ruby_boots"
+    },
+    "silver_clump": {
+      "textures": "textures/items/silver_clump"
+    },
+    "silver_sword": {
+      "textures": "textures/items/tools/silver_sword",
+      "texture_size": [64, 64]
+    },
+    "silver_pickaxe": {
+      "textures": "textures/items/tools/silver_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "silver_axe": {
+      "textures": "textures/items/tools/silver_axe",
+      "texture_size": [64, 64]
+    },
+    "silver_shovel": {
+      "textures": "textures/items/tools/silver_shovel",
+      "texture_size": [64, 64]
+    },
+    "silver_hoe": {
+      "textures": "textures/items/tools/silver_hoe",
+      "texture_size": [64, 64]
+    },
+    "silver_helmet": {
+      "textures": "textures/items/armor/silver_helmet"
+    },
+    "silver_chestplate": {
+      "textures": "textures/items/armor/silver_chestplate"
+    },
+    "silver_leggings": {
+      "textures": "textures/items/armor/silver_leggings"
+    },
+    "silver_boots": {
+      "textures": "textures/items/armor/silver_boots"
+    },
+    "jadestone": {
+      "textures": "textures/items/jadestone"
+    },
+    "jade_sword": {
+      "textures": "textures/items/tools/jade_sword",
+      "texture_size": [64, 64]
+    },
+    "jade_pickaxe": {
+      "textures": "textures/items/tools/jade_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "jade_axe": {
+      "textures": "textures/items/tools/jade_axe",
+      "texture_size": [64, 64]
+    },
+    "jade_shovel": {
+      "textures": "textures/items/tools/jade_shovel",
+      "texture_size": [64, 64]
+    },
+    "jade_hoe": {
+      "textures": "textures/items/tools/jade_hoe",
+      "texture_size": [64, 64]
+    },
+    "jade_helmet": {
+      "textures": "textures/items/armor/jade_helmet"
+    },
+    "jade_chestplate": {
+      "textures": "textures/items/armor/jade_chestplate"
+    },
+    "jade_leggings": {
+      "textures": "textures/items/armor/jade_leggings"
+    },
+    "jade_boots": {
+      "textures": "textures/items/armor/jade_boots"
+    },
+    "spessartite": {
+      "textures": "textures/items/spessartite"
+    },
+    "spessartite_sword": {
+      "textures": "textures/items/tools/spessartite_sword",
+      "texture_size": [64, 64]
+    },
+    "spessartite_pickaxe": {
+      "textures": "textures/items/tools/spessartite_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "spessartite_axe": {
+      "textures": "textures/items/tools/spessartite_axe",
+      "texture_size": [64, 64]
+    },
+    "spessartite_shovel": {
+      "textures": "textures/items/tools/spessartite_shovel",
+      "texture_size": [64, 64]
+    },
+    "spessartite_hoe": {
+      "textures": "textures/items/tools/spessartite_hoe",
+      "texture_size": [64, 64]
+    },
+    "spessartite_helmet": {
+      "textures": "textures/items/armor/spessartite_helmet"
+    },
+    "spessartite_chestplate": {
+      "textures": "textures/items/armor/spessartite_chestplate"
+    },
+    "spessartite_leggings": {
+      "textures": "textures/items/armor/spessartite_leggings"
+    },
+    "spessartite_boots": {
+      "textures": "textures/items/armor/spessartite_boots"
+    },
+    "garnet": {
+      "textures": "textures/items/garnet"
+    },
+    "garnet_sword": {
+      "textures": "textures/items/tools/garnet_sword",
+      "texture_size": [64, 64]
+    },
+    "garnet_pickaxe": {
+      "textures": "textures/items/tools/garnet_pickaxe",
+      "texture_size": [64, 64]
+    },
+    "garnet_axe": {
+      "textures": "textures/items/tools/garnet_axe",
+      "texture_size": [64, 64]
+    },
+    "garnet_shovel": {
+      "textures": "textures/items/tools/garnet_shovel",
+      "texture_size": [64, 64]
+    },
+    "garnet_hoe": {
+      "textures": "textures/items/tools/garnet_hoe",
+      "texture_size": [64, 64]
+    },
+    "garnet_helmet": {
+      "textures": "textures/items/armor/garnet_helmet"
+    },
+    "garnet_chestplate": {
+      "textures": "textures/items/armor/garnet_chestplate"
+    },
+    "garnet_leggings": {
+      "textures": "textures/items/armor/garnet_leggings"
+    },
+    "garnet_boots": {
+      "textures": "textures/items/armor/garnet_boots"
+    }
+  }
+}

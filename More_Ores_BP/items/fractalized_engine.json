@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fractalized:fractalized_engine",
+      "category": "items",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:display_name": {
+        "value": "Fractalized Engine"
+      },
+      "minecraft:icon": "fractalized_engine",
+      "minecraft:hover_text_color": "aqua"
+    }
+  }
+}

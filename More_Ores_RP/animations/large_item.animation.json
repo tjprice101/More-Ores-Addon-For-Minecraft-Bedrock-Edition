@@ -1,0 +1,27 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+        "animation.large_item.hold": {
+            "loop": true,
+            "bones": {
+                "rightitem": {
+                    "position": [
+                        "c.is_first_person ? 2 : 0",
+                        "c.is_first_person ? -11 : 3",
+                        "c.is_first_person ? 8 : -17"
+                    ],
+                    "rotation": [
+                        "c.is_first_person ? 90 : 0",
+                        "c.is_first_person ? 30 : 50",
+                        "c.is_first_person ? 100 : 90"
+                    ],
+                    "scale": [
+                        "c.is_first_person ? 2.5 : 1.8",
+                        "c.is_first_person ? 2.5 : 1.8",
+                        "c.is_first_person ? 2.5 : 1.8"
+                    ]
+                }
+            }
+        }
+    }
+}

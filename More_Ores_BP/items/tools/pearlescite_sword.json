@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pearlescite:pearlescite_sword",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
+      }
+    },
+    "components": {
+      "minecraft:icon": { "texture": "pearlescite_sword" },
+      "minecraft:display_name": { "value": "§dPearlescite Sword§r" },
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": { "max_durability": 3500, "damage_chance": { "min": 60, "max": 100 } },
+      "minecraft:repairable": { "repair_items": [{ "items": ["pearlescite:pearlescite_orb"], "repair_amount": "context.other->q.remaining_durability + 0.20 * context.other->q.max_durability" }] },
+      "minecraft:damage": { "value": 12 },
+      "minecraft:enchantable": { "value": 25, "slot": "sword" },
+      "minecraft:hand_equipped": true,
+      "pearlescite:durability": {},
+      "minecraft:hover_text_color": "light_purple",
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

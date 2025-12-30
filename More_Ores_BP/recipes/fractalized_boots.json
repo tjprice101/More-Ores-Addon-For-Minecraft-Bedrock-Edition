@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "fractalized:fractalized_boots"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "E E",
+      "DCD"
+    ],
+    "key": {
+      "E": {
+        "item": "fractalized:fractalized_engine"
+      },
+      "C": {
+        "item": "fractalized:fractalized_capacitor"
+      },
+      "D": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "unlock": [
+      { "item": "fractalized:fractalized_engine" }
+    ],
+    "result": {
+      "item": "fractalized:fractalized_boots",
+      "count": 1
+    }
+  }
+}

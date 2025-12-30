@@ -1,0 +1,15 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "heavenbane:heavenbane_ore_feature"
+    },
+    "count": 9,
+    "replace_rules": [
+      {
+        "places_block": "heavenbane:heavenbane_ore",
+        "may_replace": ["minecraft:end_stone"]
+      }
+    ]
+  }
+}

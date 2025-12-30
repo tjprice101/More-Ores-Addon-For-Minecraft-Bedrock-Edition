@@ -1,0 +1,96 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fractalized:fractalized_pickaxe",
+      "menu_category": {
+        "category": "equipment",
+        "group": "itemGroup.name.pickaxe"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "fractalized_pickaxe"
+      },
+      "minecraft:display_name": {
+        "value": "§bFractalized Pickaxe§r"
+      },
+      "minecraft:lore": [
+        "§bQuantum-forged mining perfection",
+        "§8Attack: +12 | Durability: 5000 | Speed: 30"
+      ],
+      "minecraft:max_stack_size": 1,
+      "minecraft:durability": {
+        "max_durability": 5000
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": ["fractalized:fractalized_particle"],
+            "repair_amount": "context.other->q.remaining_durability + 0.25 * context.other->q.max_durability"
+          }
+        ]
+      },
+      "minecraft:damage": {
+        "value": 12
+      },
+      "minecraft:enchantable": {
+        "value": 30,
+        "slot": "pickaxe"
+      },
+      "minecraft:hand_equipped": true,
+      "fractalized:durability": {},
+      "fractalized:auto_smelt": {},
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable', 'iron_pick_diggable', 'stone_pick_diggable')"
+            },
+            "speed": 30
+          },
+          { "block": "minecraft:stone", "speed": 30 },
+          { "block": "minecraft:cobblestone", "speed": 30 },
+          { "block": "minecraft:deepslate", "speed": 30 },
+          { "block": "minecraft:cobbled_deepslate", "speed": 30 },
+          { "block": "minecraft:sandstone", "speed": 30 },
+          { "block": "minecraft:red_sandstone", "speed": 30 },
+          { "block": "minecraft:netherrack", "speed": 30 },
+          { "block": "minecraft:coal_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_coal_ore", "speed": 30 },
+          { "block": "minecraft:iron_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_iron_ore", "speed": 30 },
+          { "block": "minecraft:copper_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_copper_ore", "speed": 30 },
+          { "block": "minecraft:gold_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_gold_ore", "speed": 30 },
+          { "block": "minecraft:nether_gold_ore", "speed": 30 },
+          { "block": "minecraft:lapis_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_lapis_ore", "speed": 30 },
+          { "block": "minecraft:redstone_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_redstone_ore", "speed": 30 },
+          { "block": "minecraft:diamond_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_diamond_ore", "speed": 30 },
+          { "block": "minecraft:emerald_ore", "speed": 30 },
+          { "block": "minecraft:deepslate_emerald_ore", "speed": 30 },
+          { "block": "minecraft:nether_quartz_ore", "speed": 30 },
+          { "block": "minecraft:ancient_debris", "speed": 30 },
+          { "block": "minecraft:obsidian", "speed": 30 },
+          { "block": "minecraft:crying_obsidian", "speed": 30 },
+          { "block": "spessartite:spessartite_ore", "speed": 30 },
+          { "block": "garnet:garnet_ore", "speed": 30 },
+          { "block": "silver:silver_ore", "speed": 30 },
+          { "block": "ruby:ruby_ore", "speed": 30 },
+          { "block": "jade:jade_ore", "speed": 30 },
+          { "block": "tazerite:tazerite_ore", "speed": 30 },
+          { "block": "hellfire:hellfire_ore", "speed": 30 },
+          { "block": "heavenbane:heavenbane_ore", "speed": 30 },
+          { "block": "pearlescite:pearlescite_ore", "speed": 30 }
+        ]
+      },
+      "minecraft:can_destroy_in_creative": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "tazerite:tazerite_ore_feature"
+    },
+    "count": 9,
+    "replace_rules": [
+      {
+        "places_block": "tazerite:tazerite_ore",
+        "may_replace": ["minecraft:stone"]
+      },
+      {
+        "places_block": "tazerite:tazerite_ore",
+        "may_replace": ["minecraft:deepslate"]
+      }
+    ]
+  }
+}
