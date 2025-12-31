@@ -1,8 +1,8 @@
 # 🏔️ MORE ORES! - Complete Guide & Documentation
 
 **Version**: 2.0 Combined Edition  
-**Date**: December 28, 2025  
-**Compatible**: Minecraft Bedrock Edition 1.20+
+**Date**: December 28, 2025 
+**Compatible**: Minecraft Bedrock Edition 1.20+ 
 
 ---
 
