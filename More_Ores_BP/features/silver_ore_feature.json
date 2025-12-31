@@ -4,7 +4,7 @@
     "description": {
       "identifier": "silver:silver_ore_feature"
     },
-    "count": 9,
+    "count": 6,
     "discard_chance_on_air_exposure": 0,
     "replace_rules": [
       {

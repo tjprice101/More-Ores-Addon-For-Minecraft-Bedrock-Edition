@@ -4,7 +4,7 @@
     "description": {
       "identifier": "heavenbane:heavenbane_ore_feature"
     },
-    "count": 9,
+    "count": 7,
     "replace_rules": [
       {
         "places_block": "heavenbane:heavenbane_ore",

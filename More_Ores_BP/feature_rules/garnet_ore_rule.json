@@ -2,7 +2,7 @@
   "format_version": "1.20.20",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "garnet:garnet_ore_rule",
+      "identifier": "more_ores:garnet_ore_rule",
       "places_feature": "garnet:garnet_ore_feature"
     },
     "conditions": {

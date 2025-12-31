@@ -2,7 +2,7 @@
   "format_version": "1.20.20",
   "minecraft:item": {
     "description": {
-      "identifier": "more_ores:spessartite_helmet",
+      "identifier": "spessartite:spessartite_helmet",
       "category": "Equipment",
       "menu_category": {
         "category": "equipment",
@@ -24,9 +24,9 @@
         "repair_items": [
           {
             "items": [
-              "more_ores:spessartite"
+              "spessartite:spessartite"
             ],
-            "repair_amount": "context.other->query.remaining_durability + 0.25 * context.other->query.max_durability"
+            "repair_amount": "query.max_durability * 0.25"
           }
         ]
       },

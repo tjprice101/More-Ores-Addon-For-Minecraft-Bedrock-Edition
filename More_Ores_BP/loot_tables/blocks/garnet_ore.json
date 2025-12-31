@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "garnet:garnet"
+          "type": "item",
+          "name": "garnet:garnet_ore",
+          "weight": 1
         }
       ]
     }

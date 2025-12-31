@@ -8,6 +8,9 @@
       }
     },
     "components": {
+      "tag:minecraft:stone_pick_diggable": {},
+      "tag:iron_pick_diggable": {},
+      "tag:diamond_pick_diggable": {},
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 3.0
       },

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "ruby:ruby_ore"
+          "type": "item",
+          "name": "ruby:ruby_ore",
+          "weight": 1
         }
       ]
     }

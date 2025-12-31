@@ -2,7 +2,7 @@
   "format_version": "1.20.20",
   "minecraft:feature_rules": {
     "description": {
-      "identifier": "spessartite:spessartite_ore_rule",
+      "identifier": "more_ores:spessartite_ore_rule",
       "places_feature": "spessartite:spessartite_ore_feature"
     },
     "conditions": {

@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "jade:jade_ore"
+          "type": "item",
+          "name": "jade:jade_ore",
+          "weight": 1
         }
       ]
     }

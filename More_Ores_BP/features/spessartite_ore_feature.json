@@ -5,22 +5,14 @@
       "identifier": "spessartite:spessartite_ore_feature"
     },
     "count": 9,
-    "discard_chance_on_air_exposure": 0,
     "replace_rules": [
       {
         "places_block": "spessartite:spessartite_ore",
-        "may_replace": [
-          {
-            "block_descriptor": {
-              "name": "minecraft:stone"
-            }
-          },
-          {
-            "block_descriptor": {
-              "name": "minecraft:deepslate"
-            }
-          }
-        ]
+        "may_replace": ["minecraft:stone"]
+      },
+      {
+        "places_block": "spessartite:spessartite_ore",
+        "may_replace": ["minecraft:deepslate"]
       }
     ]
   }

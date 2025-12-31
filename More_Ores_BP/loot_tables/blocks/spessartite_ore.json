@@ -1,12 +1,12 @@
 {
-  "type": "minecraft:block",
   "pools": [
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "spessartite:spessartite"
+          "type": "item",
+          "name": "spessartite:spessartite_ore",
+          "weight": 1
         }
       ]
     }

@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "more_ores:garnet_chestplate",
+      "identifier": "garnet:garnet_chestplate",
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"

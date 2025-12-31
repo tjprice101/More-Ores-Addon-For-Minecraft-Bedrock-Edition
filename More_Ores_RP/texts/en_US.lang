@@ -113,28 +113,28 @@ item.more_ores:jade_boots=Jade Boots
 ## SPESSARTITE (Overworld - Pre-Tier)
 ## ============================================
 tile.spessartite:spessartite_ore.name=Spessartite Ore
-item.more_ores:spessartite=Spessartite
-item.more_ores:spessartite_pickaxe=Spessartite Pickaxe
-item.more_ores:spessartite_axe=Spessartite Axe
-item.more_ores:spessartite_shovel=Spessartite Shovel
-item.more_ores:spessartite_hoe=Spessartite Hoe
-item.more_ores:spessartite_sword=Spessartite Sword
-item.more_ores:spessartite_helmet=Spessartite Helmet
-item.more_ores:spessartite_chestplate=Spessartite Chestplate
-item.more_ores:spessartite_leggings=Spessartite Leggings
-item.more_ores:spessartite_boots=Spessartite Boots
+item.spessartite:spessartite=Spessartite
+item.spessartite:spessartite_pickaxe=Spessartite Pickaxe
+item.spessartite:spessartite_axe=Spessartite Axe
+item.spessartite:spessartite_shovel=Spessartite Shovel
+item.spessartite:spessartite_hoe=Spessartite Hoe
+item.spessartite:spessartite_sword=Spessartite Sword
+item.spessartite:spessartite_helmet=Spessartite Helmet
+item.spessartite:spessartite_chestplate=Spessartite Chestplate
+item.spessartite:spessartite_leggings=Spessartite Leggings
+item.spessartite:spessartite_boots=Spessartite Boots
 
 ## ============================================
 ## GARNET (Overworld - Pre-Tier)
 ## ============================================
 tile.garnet:garnet_ore.name=Garnet Ore
-item.more_ores:garnet=Garnet
-item.more_ores:garnet_pickaxe=Garnet Pickaxe
-item.more_ores:garnet_axe=Garnet Axe
-item.more_ores:garnet_shovel=Garnet Shovel
-item.more_ores:garnet_hoe=Garnet Hoe
-item.more_ores:garnet_sword=Garnet Sword
-item.more_ores:garnet_helmet=Garnet Helmet
-item.more_ores:garnet_chestplate=Garnet Chestplate
-item.more_ores:garnet_leggings=Garnet Leggings
-item.more_ores:garnet_boots=Garnet Boots
+item.garnet:garnet=Garnet
+item.garnet:garnet_pickaxe=Garnet Pickaxe
+item.garnet:garnet_axe=Garnet Axe
+item.garnet:garnet_shovel=Garnet Shovel
+item.garnet:garnet_hoe=Garnet Hoe
+item.garnet:garnet_sword=Garnet Sword
+item.garnet:garnet_helmet=Garnet Helmet
+item.garnet:garnet_chestplate=Garnet Chestplate
+item.garnet:garnet_leggings=Garnet Leggings
+item.garnet:garnet_boots=Garnet Boots

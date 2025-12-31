@@ -5,17 +5,14 @@
       "identifier": "garnet:garnet_ore_feature"
     },
     "count": 9,
-    "discard_chance_on_air_exposure": 0,
     "replace_rules": [
       {
         "places_block": "garnet:garnet_ore",
-        "may_replace": [
-          {
-            "block_descriptor": {
-              "name": "minecraft:stone"
-            }
-          }
-        ]
+        "may_replace": ["minecraft:stone"]
+      },
+      {
+        "places_block": "garnet:garnet_ore",
+        "may_replace": ["minecraft:deepslate"]
       }
     ]
   }
